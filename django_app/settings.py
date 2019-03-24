@@ -25,7 +25,7 @@ SECRET_KEY = '38e6#aqlt)00be=))n&o^_3dda$&2((76n&)m24o5z)p@mg8p@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['giobaski.pythonanywhere.com']
 
 
 # Application definition
@@ -119,3 +119,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/dev/howto/static-files/
 
 STATIC_URL = '/static/'
+
+STATIC_ROOT = '/home/giobaski/django_music_app/static'
